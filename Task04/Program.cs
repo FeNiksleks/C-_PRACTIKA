@@ -8,13 +8,13 @@ Console.WriteLine("Введите значение В");
 int numberB = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите значение C");
 int numberC = Convert.ToInt32(Console.ReadLine());
-int MAX = numberA;
+int max = numberA;
 if (numberB > numberA)
 {
-    MAX = numberB;
+    max = numberB;
 }
-if (numberC > MAX)
+if (numberC > max)
 {
-    MAX = numberC;
+    max = numberC;
 }
-    Console.WriteLine($" Максимальное число {MAX}");
+    Console.WriteLine($" Максимальное число {max}");
