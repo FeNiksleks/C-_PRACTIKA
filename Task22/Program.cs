@@ -19,3 +19,4 @@ void Square (int num, int pow)
     count++;
 }
 }
+// /10000 = %10 &&  %10000 = %100 / 10
