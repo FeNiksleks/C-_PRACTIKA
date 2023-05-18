@@ -7,10 +7,17 @@ Console.Write("Введите число A: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
-
-Square(numberA, numberB);
-void Square (int num, int pow)
+// Square(numberA, numberB);
+int squa = Square(numberA, numberB);
+Console.WriteLine($"{numberA} в степени {numberB} -> {squa}");
+int Square (int num, int pow)
 {
-   
-        Console.WriteLine($"{num} в степени {pow} -> {Math.Pow(num, pow)}");
+    int sq = num;
+   for (int i = 1; i < pow; i++)
+   {
+    sq = sq * num;
+   }
+   return sq;
+        // Console.WriteLine($"{num} в степени {pow} -> {Math.Pow(num, pow)}");
+        // Console.WriteLine($"{num} в степени {pow} -> {sq}");
     }
