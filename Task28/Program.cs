@@ -4,13 +4,6 @@
 // 4 -> 24
 // 5 -> 120
 
-
-Console.WriteLine("Введите целое положительное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-
-int mulNumbers = MultiplicationNumbers(number);
-Console.WriteLine($"{number} -> {mulNumbers}");
-
 int MultiplicationNumbers(int num)
 {
     int mul = 1;
@@ -20,3 +13,10 @@ int MultiplicationNumbers(int num)
     }
     return mul;
 }
+
+Console.WriteLine("Введите целое положительное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int mulNumbers = MultiplicationNumbers(number);
+Console.WriteLine($"{number} -> {mulNumbers}");
+
