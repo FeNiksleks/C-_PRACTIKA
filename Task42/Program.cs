@@ -8,7 +8,7 @@
 
 string TheCalculusSystem (int num)
 {
-    string counter = "";
+    string counter = ""; // string counter = string.Empty;
     while (num >= 1)
 {
    counter = (num % 2) + counter;
