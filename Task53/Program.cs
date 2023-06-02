@@ -55,7 +55,7 @@ int minimum = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите максимальное целое число диапазона");
 int maximum = Convert.ToInt32(Console.ReadLine());
 
-int[,] array2d = CreatewMatrixRndInt(rrows, ccolumns, minimum, maximum); //лучше пользовательский ввод
+int[,] array2d = CreateMatrixRndInt(rrows, ccolumns, minimum, maximum); //лучше пользовательский ввод
 PrintMatrix(array2d);
 Console.WriteLine();
 ChangeFirstAndLastRows(array2d);
