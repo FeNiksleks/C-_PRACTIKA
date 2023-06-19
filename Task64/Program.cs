@@ -5,8 +5,7 @@
 
 void NaturalNumberCounter (int number)
 {
-    // if (number < 0) Console.Write($"{number} не натуральное число");
-    if (number == 0) return;
+      if (number == 0) return;
     Console.Write($"{number} ");
     NaturalNumberCounter (number - 1);
 }
